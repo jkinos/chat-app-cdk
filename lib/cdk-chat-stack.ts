@@ -92,7 +92,6 @@ export class CdkChatStack extends cdk.Stack {
           userPoolConfig: {
             userPool,
             defaultAction: UserPoolDefaultAction.ALLOW,
- 
           }
         },
       },
@@ -214,7 +213,5 @@ export class CdkChatStack extends cdk.Stack {
       `),
       responseMappingTemplate: MappingTemplate.dynamoDbResultItem() 
     })
-    
-    
   }
 }
